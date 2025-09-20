@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Restaurante Juanini Brandini</title>
+  <link rel="stylesheet" href="styles.css">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap" rel="stylesheet">
+  <meta name="description" content="Restaurante Juanini Brandini - Comida mexicana casera: pambazos, quesadillas, tacos, pozole y más.">
+</head>
+<body>
+
+  <!-- NAVEGACIÓN PRINCIPAL -->
+  <nav class="main-nav fade-in">
+    <div class="menu-toggle">
+      <span></span>
+      <span></span>
+      <span></span>
+    </div>
+    <ul>
+      <li><a href="#hero">Inicio</a></li>
+      <li><a href="#menu-galeria">Menú</a></li>
+      <li><a href="#contacto">Contacto</a></li>
+      <li><a href="#ubicacion">Ubicación</a></li>
+    </ul>
+  </nav>
+
+  <!-- ENCABEZADO -->
+  <header class="fade-in">
+    <h1>Restaurante Juanini Brandini</h1>
+    <nav class="header-nav">
+      <a href="#ubicacion">Ubicación</a>
+      <a href="#contacto">Contacto</a>
+      <a href="#menu-galeria">Menú</a>
+    </nav>
+  </header>
+
+  <main>
+    <!-- BANNER -->
+    <section id="hero" class="fade-in">
+      <div class="banner-text">
+        <h1>Bienvenido a Juanini Brandini</h1>
+        <p>Sabores que despiertan tus sentidos</p>
+        <a href="#menu-galeria" class="btn">Ver menú</a>
+      </div>
+    </section>
+
+    <!-- UBICACIÓN -->
+    <section id="ubicacion" class="fade-in">
+      <h2>Ubicación</h2>
+      <p>Las Águilas, Nezahualcóyotl, CDMX</p>
+    </section>
+
+    <!-- GALERÍA DE PLATILLOS -->
+    <section id="menu-galeria" class="fade-in">
+      <h2>Nuestro Menú</h2>
+
+      <h3>🌮 Tacos</h3>
+      <div class="platillos">
+        <div class="platillo fade-in">
+          <img src="img/tacos de pastor.jpg" alt="Tacos al pastor con piña" loading="lazy">
+          <h4>Tacos de Pastor</h4>
+          <p>Clásicos tacos de pastor con piña y cilantro.</p>
+        </div>
+        <div class="platillo fade-in">
+          <img src="img/tacos de suadero.jpg" alt="Tacos de suadero con cebolla y cilantro" loading="lazy">
+          <h4>Tacos de Suadero</h4>
+          <p>Jugosos tacos de suadero acompañados de verdura.</p>
+        </div>
+      </div>
+
+      <h3>🥟 Antojitos</h3>
+      <div class="platillos">
+        <div class="platillo fade-in">
+          <img src="img/pambazos.jpg" alt="Pambazo relleno de papa y chorizo" loading="lazy">
+          <h4>Pambazo</h4>
+          <p>Relleno de papa con chorizo o pollo, acompañado de crema, lechuga y queso.</p>
+        </div>
+        <div class="platillo fade-in">
+          <img src="img/quesadillas-de-pollo-al-pastor-634x420.jpg" alt="Quesadillas de pollo y queso" loading="lazy">
+          <h4>Quesadillas</h4>
+          <p>Pollo, queso o champiñones, acompañadas de salsa y verdura.</p>
+        </div>
+        <div class="platillo fade-in">
+          <img src="img/sopes.jpg" alt="Sopes de frijol con longaniza" loading="lazy">
+          <h4>Sopes</h4>
+          <p>De frijol con longaniza, servidos con crema y queso.</p>
+        </div>
+        <div class="platillo fade-in">
+          <img src="img/Flautas-de-pollo.jpg" alt="Orden de flautas de pollo" loading="lazy">
+          <h4>Flautas</h4>
+          <p>Doradas de pollo con lechuga, crema y queso.</p>
+        </div>
+        <div class="platillo fade-in">
+          <img src="img/gorditas.jpg" alt="Gorditas de chicharrón" loading="lazy">
+          <h4>Gorditas</h4>
+          <p>De chicharrón o frijol, recién hechas.</p>
+        </div>
+        <div class="platillo fade-in">
+          <img src="img/tostadas-de-tinga.jpg" alt="Tostada de tinga con crema y queso" loading="lazy">
+          <h4>Tostadas</h4>
+          <p>De tinga de pollo o res, con crema, lechuga y queso.</p>
+        </div>
+      </div>
+
+      <h3>🍲 Especialidades</h3>
+      <div class="platillos">
+        <div class="platillo fade-in">
+          <img src="img/pozole-rojo-1.jpg" alt="Pozole rojo con verdura y tostadas" loading="lazy">
+          <h4>Pozole Rojo</h4>
+          <p>Acompañado de lechuga, rábanos, orégano y tostadas.</p>
+        </div>
+        <div class="platillo fade-in">
+          <img src="img/caldo-gallina-1200x733.jpg" alt="Caldo de gallina con verduras" loading="lazy">
+          <h4>Caldo de Gallina</h4>
+          <p>Con verduras y huevo cocido al gusto.</p>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- TABLA DE PRECIOS -->
+    <section id="menu-tabla" class="fade-in">
+      <h2>Menú con Precios</h2>
+      <table>
+        <thead>
+          <tr>
+            <th>Plato</th>
+            <th>Descripción</th>
+            <th>Precio</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr><td>Pambazo</td><td>Papa con chorizo o pollo</td><td>$20</td></tr>
+          <tr><td>Quesadilla</td><td>Pollo, queso o champiñones</td><td>$18 / $23 con queso</td></tr>
+          <tr><td>Tostada de Tinga</td><td>Pollo o res con crema y lechuga</td><td>$15</td></tr>
+          <tr><td>Sopes</td><td>Frijol con longaniza</td><td>$30 orden</td></tr>
+          <tr><td>Flautas</td><td>De pollo con crema y queso</td><td>$30 orden</td></tr>
+          <tr><td>Gorditas</td><td>De chicharrón o frijol</td><td>$17 c/u</td></tr>
+          <tr><td>Tacos de Pastor</td><td>Con piña y cilantro</td><td>$15 c/u</td></tr>
+          <tr><td>Tacos de Suadero</td><td>Con cebolla y cilantro</td><td>$15 c/u</td></tr>
+          <tr><td>Pozole Rojo</td><td>Con verdura y tostadas</td><td>$50</td></tr>
+          <tr><td>Caldo de Gallina</td><td>Con verduras y huevo</td><td>$45</td></tr>
+        </tbody>
+      </table>
+    </section>
+
+    <!-- CONTACTO -->
+    <section id="contacto" class="fade-in">
+      <h2>Contáctanos</h2>
+      <p><strong>Tel:</strong> 56503936</p>
+      <p><strong>Email:</strong> brandonxguzman16@gmail.com</p>
+      <form>
+        <input type="text" placeholder="Nombre" required>
+        <input type="email" placeholder="Correo electrónico" required>
+        <textarea placeholder="Escribe tu mensaje aquí" required></textarea>
+        <button type="submit">Enviar</button>
+      </form>
+    </section>
+  </main>
+
+  <!-- PIE DE PÁGINA -->
+  <footer class="fade-in">
+    <p>© 2025 Juanini Brandini | Todos los derechos reservados</p>
+  </footer>
+
+  <!-- SCRIPT: Animación Scroll -->
+  <script>
+    const faders = document.querySelectorAll('.fade-in');
+    const appearOptions = { threshold: 0.1, rootMargin: "0px 0px -50px 0px" };
+
+    const appearOnScroll = new IntersectionObserver((entries, observer) => {
+      entries.forEach(entry => {
+        if (!entry.isIntersecting) return;
+        entry.target.classList.add('show');
+        observer.unobserve(entry.target);
+      });
+    }, appearOptions);
+
+    faders.forEach(fader => appearOnScroll.observe(fader));
+  </script>
+
+  <!-- SCRIPT: Menú Hamburguesa -->
+  <script>
+    const toggle = document.querySelector('.menu-toggle');
+    const navUl = document.querySelector('.main-nav ul');
+    toggle.addEventListener('click', () => {
+      navUl.classList.toggle('active');
+    });
+  </script>
+
+</body>
+</html>
